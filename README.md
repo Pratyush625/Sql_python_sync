@@ -34,8 +34,8 @@ Below is the code mentioned to push multiple CSV files from local to MYSQL using
 from sqlalchemy import create_engine # Pip install sqlalchemy
 import pandas as pd #pip install pandas
 import os
-# Note: install Pymysql if not installed
-# Create a blank database where the CSV files need to be imported as a table
+#### Note: install Pymysql if not installed
+#### Create a blank database where the CSV files need to be imported as a table
 
 hostname='localhost'
 username= "root"
